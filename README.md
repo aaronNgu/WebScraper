@@ -11,7 +11,6 @@ https://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH
 
 # pre-requisite to run the project?
 1. Python : the program is written in python
-2. Beautiful Soup 
-   .to install Beautiful Soup:
+2. Beautiful Soup. To install Beautiful Soup:
    run "easy_install bs4" or "pip install bs4"
    
