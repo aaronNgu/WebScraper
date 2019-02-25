@@ -9,8 +9,8 @@ below and add results to csv file
 URL :
 https://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH&Description=graphic+cards&N=-1&isNodeId=1
 
-# pre-requisite to run the project?
-1. Python : the program is written in python
-2. Beautiful Soup. To install Beautiful Soup:
+# How to run the project?
+1. Requires Python
+2. Requires Beautiful Soup. To install Beautiful Soup:
    run "easy_install bs4" or "pip install bs4"
-   
+3. run "python webScraper.py" to run program
