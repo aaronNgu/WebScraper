@@ -1,7 +1,7 @@
 from urllib import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 
-myURL = 'https://www.newegg.ca/Product/ProductList.aspx?Submit=ENE&DEPA=0&Order=BESTMATCH&Description=graphic+cards&N=-1&isNodeId=1'
+myURL = 'https://www.newegg.ca/Video-Cards-Video-Devices/Category/ID-38?Tpk=graphic%20cards'
 #opening connection
 uClient = uReq(myURL)
 page_HTML = uClient.read()
@@ -16,7 +16,7 @@ headers = "brand, product_name, shipping\n"
 f.write(headers)
 
 for container in containers:
-     brand =  container .div.a.img["title"]
+     brand =  container.div.a.img["title"]
 
      title_container = container.findAll("a",{"class":"item-title"})
      productName = title_container[0].text
